@@ -50,3 +50,7 @@ form :nth-last-child(2){
     margin-bottom: 15px;
 }
 
+input {
+    border-color: transparent;
+  }
+
