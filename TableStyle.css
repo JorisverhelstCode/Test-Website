@@ -8,7 +8,7 @@
 
 .head {
     color: white;
-    border-radius: 25px;
+    border-radius: 0.5em 0.5em 0em 0em
 }
 
 .odd > td{
@@ -18,4 +18,6 @@
 th {
     text-align: left;
     background-color: #efefef;
+    margin-left: 2px;
+    margin-right: 2px;
 }
