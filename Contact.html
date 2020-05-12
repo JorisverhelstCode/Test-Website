@@ -16,28 +16,45 @@
         </p>
         
         <form title="Accountgegevens">
-            <h1>Accountgegevens</h1>
+            <p><strong>Accountgegevens</strong></p>
             <label for="fname">First name*</label>
-            <input type="text" id="fname" name="fname"><br>
+            <input type="text" id="fname" name="fname" class="field"><br>
             <label for="lname">Last name*</label>
-            <input type="text" id="lname" name="lname"><br>
+            <input type="text" id="lname" name="lname" class="field"><br>
             <label for="email">Email adres*</label>
-            <input type="text" id="email" name="email"><br>
+            <input type="text" id="email" name="email" class="field"><br>
             <label for="pswd">Paswoord*</label>
-            <input type="text" id="pswd" name="pswd"><br>
+            <input type="password" id="pswd" name="pswd" class="field"><br>
             <label for="pswd-conf">Bevestig paswoord*</label>
-            <input type="text" id="pswd-conf" name="pswd-conf"><br>
+            <input type="password" id="pswd-conf" name="pswd-conf" class="field"><br>
         </form>
         <form title="Adresgegevens">
-            <h1>Adresgegevens</h1>
+            <p><strong>Adresgegevens</strong></p>
             <label for="1st-adress">Adres 1*</label>
-            <input type="text" id="1st-adress" name="1st-adress"><br>
+            <input type="text" id="1st-adress" name="1st-adress" class="field"><br>
             <label for="2nd-adress">Adres 2</label>
-            <input type="text" id="2nd-adress" name="2nd-adress"><br>
+            <input type="text" id="2nd-adress" name="2nd-adress" class="field"><br>
             <label for="Stad">Stad*</label>
-            <input type="text" id="Stad" name="Stad"><br>
+            <input type="text" id="Stad" name="Stad" class="field"><br>
             <label for="pst">Postcode*</label>
-            <input type="text" id="pst" name="pst"><br>
+            <input type="text" id="pst" name="pst" class="field"><br>
+        </form>
+        <form title="Persoonlijke-gegevens">
+            <p><strong>Persoonlijke gegevens</strong></p>
+            <label for="brthday">Geboortedatum</label>
+            <input type="text" id="brthday" name="brthday" class="field"><br>
+            <label for="tevredenheid">Hoe tevreden ben je?</label>
+            <input type="range" id="tevredenheid" name="tevredenheid" class="field"><br>
+            <label for="Man">Man</label>
+            <input type="radio" id="Man" name="Man" class="field" checked><br>
+            <label for="Vrouw">Vrouw</label>
+            <input type="radio" id="Vrouw" name="Vrouw" class="field" ><br>
+            <label for="module">Kies een module</label>
+            <input type="checkbox" id="module" name="module" class="field"><br>
+        </form>
+        <form title="Verzenden">
+            <label for="Verzenden"></label>
+            <input type="button" id="Verzenden" name="Verzenden" value="Verzenden" class="field">
         </form>
     </div>
 </body>

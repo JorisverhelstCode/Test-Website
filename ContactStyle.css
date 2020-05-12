@@ -1,7 +1,30 @@
-Content{
-    background-color: lightgreen;
+body{
+    background-color: lightgray;
 }
 
 form {
     background-color: lightblue;
+    margin-right: inherit;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+label{
+    display: inline-block;
+    clear: left;
+    width: 250px;
+    text-align: left;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+input {
+  display: inline-block;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width: 500px;
+  border-radius: 25px;
+}
+
+p {
+    margin-left: 10px;
 }
