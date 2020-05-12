@@ -1,0 +1,21 @@
+.top {
+    background-color: #3b5762;
+}
+
+.top2 {
+    background-color: #5c7c79;
+}
+
+.head {
+    color: white;
+    border-radius: 25px;
+}
+
+.odd > td{
+    background-color: #f6f6f6;
+}
+
+th {
+    text-align: left;
+    background-color: #efefef;
+}
