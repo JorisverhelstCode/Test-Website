@@ -1,0 +1,12 @@
+body {
+    background-color: red;
+}
+
+.C {
+    font-variant: small-caps;
+}
+
+dt {
+    background-color: brown;
+    border: 1px solid white;
+}

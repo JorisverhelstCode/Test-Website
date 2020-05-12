@@ -2,17 +2,44 @@
 <html>
  
 <head>
-    <style>
-        #map {
-            height: 400px;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="ContactStyle.css">
 </head>
  
 <body>
-    <div id="map"></div>
- 
+    <nav>
+        <a href="MainPage.html">Home</a> |
+        <a href="Contact.html">Contact</a> |
+    </nav>
+    <div id="Content">
+        <p>
+            Vul het registratie formulier in. Velden met een * zijn verplicht.
+        </p>
+        
+        <form title="Accountgegevens">
+            <h1>Accountgegevens</h1>
+            <label for="fname">First name*</label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name*</label>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email adres*</label>
+            <input type="text" id="email" name="email"><br>
+            <label for="pswd">Paswoord*</label>
+            <input type="text" id="pswd" name="pswd"><br>
+            <label for="pswd-conf">Bevestig paswoord*</label>
+            <input type="text" id="pswd-conf" name="pswd-conf"><br>
+        </form>
+        <form title="Adresgegevens">
+            <h1>Adresgegevens</h1>
+            <label for="1st-adress">Adres 1*</label>
+            <input type="text" id="1st-adress" name="1st-adress"><br>
+            <label for="2nd-adress">Adres 2</label>
+            <input type="text" id="2nd-adress" name="2nd-adress"><br>
+            <label for="Stad">Stad*</label>
+            <input type="text" id="Stad" name="Stad"><br>
+            <label for="pst">Postcode*</label>
+            <input type="text" id="pst" name="pst"><br>
+        </form>
+    </div>
 </body>
 <script>
     function initMap() {
