@@ -9,11 +9,13 @@
     <nav>
         <a href="MainPage.html">Home</a> |
         <a href="Contact.html">Contact</a> |
+        <a href="Table.html">Table</a> |
     </nav>
     <div id="Content">
-        <p>
+        <div>
+            <br>
             Vul het registratie formulier in. Velden met een * zijn verplicht.
-        </p>
+        </div>
         
         <form title="Accountgegevens">
             <p><strong>Accountgegevens</strong></p>
@@ -42,19 +44,23 @@
         <form title="Persoonlijke-gegevens">
             <p><strong>Persoonlijke gegevens</strong></p>
             <label for="brthday">Geboortedatum</label>
-            <input type="text" id="brthday" name="brthday" class="field"><br>
+            <input type="date" id="brthday" name="brthday" class="field"><br>
             <label for="tevredenheid">Hoe tevreden ben je?</label>
             <input type="range" id="tevredenheid" name="tevredenheid" class="field"><br>
             <label for="Man">Man</label>
-            <input type="radio" id="Man" name="Man" class="field" checked><br>
+            <input type="radio" id="Man" name="Man" class="field"><br>
             <label for="Vrouw">Vrouw</label>
             <input type="radio" id="Vrouw" name="Vrouw" class="field" ><br>
             <label for="module">Kies een module</label>
-            <input type="checkbox" id="module" name="module" class="field"><br>
+            <select id="module" name="module" class="field">
+                <option value="1">Multimedia</option>
+                <option value="2">Databanken</option>
+                <option value="3">Programeren 3</option>
+                <option value="4">Programeren 4</option>
+            </select><br>
         </form>
         <form title="Verzenden">
-            <label for="Verzenden"></label>
-            <input type="button" id="Verzenden" name="Verzenden" value="Verzenden" class="field">
+            <input type="button" id="Verzenden" name="Verzenden" value="Verzenden" class="field"><br>
         </form>
     </div>
 </body>

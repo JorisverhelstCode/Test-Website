@@ -1,19 +1,21 @@
 body{
-    background-color: lightgray;
+    background-color: #f4fce7;
 }
 
 form {
-    background-color: lightblue;
-    margin-right: inherit;
+    background-color: #d1efe3;
+    margin-right: 750px;
     margin-left: 10px;
     margin-bottom: 3px;
+    border-radius: 25px;
 }
 
 label{
     display: inline-block;
     clear: left;
-    width: 250px;
+    width: 200px;
     text-align: left;
+    margin-left: 10px;
     margin-bottom: 2px;
     margin-top: 2px;
 }
@@ -28,3 +30,23 @@ input {
 p {
     margin-left: 10px;
 }
+
+#Verzenden {
+    text-align: center;
+    width: 100px;
+    background-color: #8abeb2;
+    color: white;
+}
+
+[title = Verzenden]{
+    text-align: center;
+    width: 760px;
+}
+
+form :last-child{
+    margin-bottom: 15px;
+}
+form :nth-last-child(2){
+    margin-bottom: 15px;
+}
+
